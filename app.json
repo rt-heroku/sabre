@@ -6,7 +6,7 @@
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs",
   "env": {
-    "SABRE_CLIENT_ID": "",
-    "SABRE_CLIENT_SECRET": ""
+    "SABRE_CLIENT_ID": "replace with client id",
+    "SABRE_CLIENT_SECRET": "replace with secret"
   }
 }
