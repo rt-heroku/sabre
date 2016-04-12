@@ -1,3 +1,5 @@
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
 ## The back story
 
 I decided to build a travel web app this morning. I had been looking at the [Sabre Developer Studio](https://developer.sabre.com/) yesterday, and I wanted to get my hands dirty. I had also been looking at [LumX](http://ui.lumapps.com/) a few days ago, an AngularJS web frontend framework that implemented the [Google Material Design](http://www.google.com/design/spec/material-design/introduction.html) guidelines, and wanted to give it a spin. 
