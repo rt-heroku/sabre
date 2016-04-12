@@ -1,10 +1,15 @@
 'use strict';
 var SabreDevStudio = require('sabre-dev-studio');
-var sabreDevStudio = new SabreDevStudio({
-  client_id:     'V1:2wsxopvowhfw47bw:DEVCENTER:EXT',
-  client_secret: '0h8kNNHa',
+
+var app = require('../app');
+
+var config = {
+  client_id:     app.get('client_id'),
+  client_secret: app.settings.client_secret,
   uri:           'https://api.test.sabre.com'
-});
+};
+
+var sabreDevStudio = new SabreDevStudio(config);
 var options = {};
 
 module.exports = function(app) {

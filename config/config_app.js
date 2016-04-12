@@ -8,13 +8,12 @@ var express = require('express'),
     errorhandler = require('errorhandler'),
     multer  = require('multer');
 
-
 module.exports = function(app) {
   app.use(compression());
   app.use(morgan('dev'));
   app.use(bodyParser());
   app.use(multer());
-  app.use(cookieParser('Twyst_2014_Sessions'));
+  app.use(cookieParser('RT_SABRE_2016_Sessions'));
 
   app.use(methodOverride());
 
