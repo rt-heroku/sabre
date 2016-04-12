@@ -5,4 +5,8 @@
   "logo": "http://node-js-sample.herokuapp.com/node.svg",
   "keywords": ["node", "express", "static"],
   "image": "heroku/nodejs"
+  "env": {
+    "SABRE_CLIENT_ID": "",
+    "SABRE_CLIENT_SECRET": ""
+  }
 }
