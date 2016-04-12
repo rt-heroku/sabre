@@ -37,6 +37,7 @@
     "passport-local-mongoose": "latest",
     "qrpng": "~0.1.1",
     "restler": "^3.2.2",
+    "sabre-dev-studio": "1.1.0",
     "serve-favicon": "latest",
     "string": "~1.8.0",
     "superagent": "^0.19.0",
@@ -46,12 +47,13 @@
   "devDependencies": {
     "chai": "latest",
     "mocha": "latest",
-    "sabre-dev-studio": "^1.0.1",
+    "sabre-dev-studio": "1.1.0",
     "should": "latest",
     "supertest": "latest"
   },
-  "name": "twyst",
-  "subdomain": "twyst",
+  "name": "sabre",
+  "subdomain": "sabre",
+  "main": "index.js",
   "scripts": {
     "start": "node app.js",
     "test": "mocha"
@@ -59,5 +61,17 @@
   "version": "0.0.1",
   "engines": {
     "node": "0.12.x"
-  }
+  },
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/rt-heroku/sabre"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "sabre"
+  ],
+  "license": "MIT"
+
 }
