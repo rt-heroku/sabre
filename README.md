@@ -1,4 +1,6 @@
 
+If you don't have a heroku account sign up for one https://signup.heroku.com/
+
 Please register at https://developer.sabre.com contact Sabre in order to obtain your own credentials, you will need them in order to submit requests.
 
 To deploy this application to Heroku please download the Heroku toolbelt and then:
@@ -15,7 +17,3 @@ cd sabre
 heroku create 
 git push heroku master
 ```
-
-Thanks to arunr
-
-https://github.com/arunr/sabrelab
